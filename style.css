@@ -1,0 +1,139 @@
+body {
+	background-color: rgb(230,230,230);
+	font-family:'Fredoka One', cursive;
+	background-image: url(images/background.jpg)
+}
+
+h1 {
+	color: #F98509;
+	font-family: Courier;
+	font-size: 40px;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+}
+
+h2{
+	color: blue;
+	font-weight: 100;
+	letter-spacing: 8px; 
+	font-family: 'Pacifico;
+	text-shadow:1px 1px 2px pink;
+}
+
+a{
+	text-decoration: none;
+	color: #3BAF9A;
+	font-family: 'Pacifico', cursive;
+	font-weight: bolder;
+}
+
+h3{
+	color: #C792DF;
+	letter-spacing: 5px;
+	font-family: Courier;
+	font-weight: bolder;
+}
+
+p{
+	font-family: Courier;
+	color: #5C574F;
+}
+
+
+a:hover {
+	color: blue;
+	text-shadow:1px 1px 2px pink;
+}
+
+#Lisbon {
+	border-radius: 25px;
+}
+
+#Australie {
+	border-radius: 25px;
+}
+
+#Emma {
+	border-radius: 25px; 
+}
+
+#titre {
+	text-align: center;
+}
+
+#presentation {
+	background-color: #E8E9EB;
+	text-align: center;
+	padding: 20px 60px;
+	margin: 0 auto; 
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.1);
+	border-radius: 25px;
+	width: 300px;
+}
+
+#travels {
+	background-color: #E8E9EB;
+	text-align: center;
+	padding: 20px 60px;
+	margin: 0 auto; 
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.1);
+	border-radius: 25px;
+	width: 300px;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media(max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media(max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+
+#smedia {
+    background-color: #E8E9EB;
+	text-align: center;
+	padding: 20px 60px;
+	margin: 0 auto; 
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.1);
+	border-radius: 25px;
+	width: 300px;
+	display:normal;
+	align-items: center;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.card img {
+  width: 70px;
+  margin: 0px auto;
+
+}
+
+.cardmedia {
+  display:inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-position: inside;
+  padding: 20px;
+}
+
+.miniature {
+	margin: 0 30px;
+	font-size: 30px;
+}
+
